@@ -100,7 +100,7 @@ header {
 }
 
 .menuitem span {
-    display; block;
+    display: block;
     width: 100%;
     padding-top: 5px;
     text-align: center;
@@ -113,6 +113,6 @@ header {
 /* ------------------------------ Hover.css */
 
 .hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.2)
+    background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
