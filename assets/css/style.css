@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+header,
+section {
+  position: relative;
+  z-index: 1;
+}
+
+section {
+  background: white;
+  box-shadow: 2rem 2rem 4rem #000;
+  /*min-height: 100vh;   Min-height to ensure everyone gets the scroll reveal */
+}
+
+footer {
+  position: sticky;
+  bottom: 0;
+}
+
 /* ------------------------------ Colours */
 
 .bg-color-name-title {
@@ -92,6 +109,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode: soft-light;
     min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
