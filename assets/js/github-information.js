@@ -24,7 +24,7 @@ function fetchGitHubInformation(event) {
     $("#gh-user-data").html(`<div id="loader"><img src="assets/css/loader.gif" alt="loading..." /></div>`);
 
     $.when(
-        $.getJSON(`https://api.gihub.com/users/${username}`)
+        $.getJSON(`https://api.github.com/users/${username}`)
     ).then(
         function(response) {
             let userData = response;
